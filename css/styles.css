@@ -76,6 +76,7 @@ small { font-size: 75%; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
+.tab {padding-left: 10px;}
 /* ==========================================================================
 Lists
 ========================================================================== */
@@ -188,7 +189,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .nopadding { padding: 0; }
 .inner { padding-top: 10px; }
 .inner, .fadeInUp{ padding-left: 50px; font-size: 24px; color: #c0c0c0;}
-#main-title{font-size: 96px; font-weight: bolder; font-family: 'Do Hyeon', sans-serif; color: #f0f2f4;}
+#main-title{font-size: 96px; font-weight: bolder; font-family: 'Do Hyeon', sans-serif; color: #f3f5f8;}
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -200,7 +201,7 @@ nav ul li a { color: rgba(255, 255, 255, 0.6); display: block; padding: 5px; tra
 nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 255, 255, 1); padding-left: 5px;}
 #nav-toggle { position: absolute; right: 15px; top: 0; }
 #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; height: 5px; width: 35px; background: #c0c0c0; position: absolute; display: block; content: ''; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; height: 5px; width: 35px; background: #f3f5f8; position: absolute; display: block; content: ''; }
 #nav-toggle span:before { top: -10px; }
 #nav-toggle span:after { bottom: -10px; }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
