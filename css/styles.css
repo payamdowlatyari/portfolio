@@ -189,7 +189,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .nopadding { padding: 0; }
 .inner { padding-top: 10px; }
 .inner, .fadeInUp{ padding-left: 50px; font-size: 24px; color: #c0c0c0;}
-#main-title{font-size: 81px; font-weight: bolder; font-family: 'Do Hyeon', sans-serif; color: #f3f5f8;}
+#main-title{font-size: 84px; font-weight: bolder; font-family: 'Do Hyeon', sans-serif; color: #f3f5f8;}
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -232,13 +232,13 @@ Intro
 .intro p { margin: 30px 0 0; }
 .LI-profile-badge{ margin-top: 30px;}
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold;}
-.freelance-badge{ margin: 10px;}
-.freelance-badge a{ padding: 0px; margin: 5px;}
-.freelance-badge img {margin-bottom: 20px;} 
+.freelance-badge{ margin: 50px;}
+.freelance-badge a{ padding: 0px; margin: 15px;}
+.freelance-badge img {margin-bottom: 30px;} 
 /* ==========================================================================
 Features
 ========================================================================== */
-.features { background: #fff; min-height: 100vh;}
+.features { background: #f3f5f8; min-height: 100vh;}
 .features-wrapper, .team-wrapper { margin: 100px 0 0; }
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
@@ -273,9 +273,9 @@ a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index:
 a.close-overlay.hidden { display: none; }
 a.expand { display: block; position: absolute; z-index: 100; text-align: center; color: #fff; font-weight: 600; font-size: 14px; text-transform: uppercase; line-height: 30px; }
 .overlay-effect .img i { font-size: 30px; }
-.overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0; }
+.overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0.7; background: #575d61;}
 .overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto 0 auto; }
-.overlay-effect .img.hover .overlay { height: 100%; opacity: 1; }
+.overlay-effect .img.hover .overlay { height: 100%; opacity: 0; }
 .img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
@@ -309,7 +309,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
 /* ==========================================================================
 Memberships
 ========================================================================== */
-.membership {min-height: 100vh;}
+.membership {min-height: 100vh; background: #f3f5f8;}
 /* ==========================================================================
 Contact
 ========================================================================== */
@@ -336,7 +336,7 @@ ul.legals li:last-child::after { content: ""; }
 FlexSlider Custom CSS
 ========================================================================== */
 #servicesSlider { margin-top: 70px; }
-ul.slides li { margin-bottom: 20px; }
+ul.slides li { margin-bottom: 20px;  margin-top: 50px;}
 /* ==========================================================================
 Waypoints
 ========================================================================== */
