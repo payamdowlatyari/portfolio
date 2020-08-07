@@ -309,7 +309,11 @@ ul.social-buttons li:last-child { margin-right: 0; }
 /* ==========================================================================
 Memberships
 ========================================================================== */
-.membership {min-height: 100vh; background: #f3f5f8;}
+.membership { background: #f3f5f8;}
+.link-up-down{background: #242830;padding-top: 15px;}
+.link-up-down a{color: #c0c0c0;  }
+.link-up-down a:hover{color: #3dc9b3; transition: 0.5s; }
+
 /* ==========================================================================
 Contact
 ========================================================================== */
@@ -336,7 +340,7 @@ ul.legals li:last-child::after { content: ""; }
 FlexSlider Custom CSS
 ========================================================================== */
 #servicesSlider { margin-top: 70px; }
-ul.slides li { margin-bottom: 20px;  margin-top: 50px;}
+ul.slides li { margin-bottom: 20px;  margin-top: 30px;}
 /* ==========================================================================
 Waypoints
 ========================================================================== */
