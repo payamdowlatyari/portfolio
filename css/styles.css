@@ -216,7 +216,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: #3dc9b3; pa
 Hero
 ========================================================================== */
 .hero { background: url('../img/hero-bg.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 150px 0; height: 100vh; }
-.hero h1 { font-size: 50px; letter-spacing: 12px; margin: 10px; }
+.hero h1 { font-size: 50px; letter-spacing: 6px; margin: 10px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
 .learn-more-btn { background: #3dc9b3; padding: 10px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin: 0 0 0; font-weight: bold; margin-top: 15px; width: 150px;}
@@ -230,7 +230,15 @@ Intro
 ========================================================================== */
 .intro { background: #f3f5f8;  min-height: 100vh;}
 .intro p { margin: 30px 0 0; }
-.LI-profile-badge{ margin-top: 30px;}
+.LI-profile-badge{ margin-top: 30px; float: center;}
+/* .LI-profile-link{ text-align: left;} */
+
+/* .LI-profile-badge a{ text-align: left; margin-left: 0;}
+.LI-profile-badge:hover{ } */
+
+/* .sides { background: #242830; height: 100%;} */
+
+
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold;}
 .freelance-badge{ margin: 50px;}
 .freelance-badge a{ padding: 0px; margin: 15px;}
@@ -245,11 +253,11 @@ Features
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
-.iphone { width: 50%; background: #f3f5f8; float: left; height: 100%; z-index: 1;  min-height: 80vh;}
+.iphone { width: 50%; background: #242830; float: left; height: 100%; z-index: 1;  min-height: 80vh;}
 /* .iphone:hover { background-color: #242830; transition: .3s;} */
-.fluid-white { width: 50%; background: #f3f5f8; float: right; height: 100%; z-index: 2; }
+.fluid-white { width: 50%; background: #f3f5f8; float: right; height: 100%; z-index: 2; padding-bottom: 20px;}
 .responsive-services { position: relative; }
-#responsive{ padding-top: 50px; background: #f3f5f8;}
+#responsive{ padding-top: 0px; background: #242830;}
 /* ==========================================================================
 Swag
 ========================================================================== */
@@ -293,7 +301,7 @@ CTA
 ========================================================================== */
 .ignite-bar {background-color: #f3f5f8; padding: 50px 0;}
 .ignite-cta { background-color: #242830; padding: 50px 0;}
-.ignite-cta h1 { color: #fff; text-transform: uppercase; padding-bottom: 10px;}
+.ignite-cta h1 { color: #f3f5f8; text-transform: uppercase; padding-bottom: 10px;}
 .ignite-btn { display: inline-block; padding: 15px 20px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px;}
 .ignite-btn:hover, .ignite-btn:focus { color: #3dc9b3; border: solid 1px #3dc9b3; }
 /* ==========================================================================
@@ -310,6 +318,13 @@ ul.social-buttons li:last-child { margin-right: 0; }
 Memberships
 ========================================================================== */
 .membership { background: #f3f5f8;}
+.mem-icon{ margin: auto; padding: 20px; float: center;}
+.half-page-left {width: 30%; float: left; background: #f3f5f8;}
+.half-page-middle {width: 40%; float: center; background: #242830;}
+.half-page-right { width: 30%; height: 100%; background: #f3f5f8; float: right;}
+.buttom-page a{ padding: 30px; margin-bottom: 50px; margin-top: 50px;}
+.buttom-page img{ margin-bottom: 20px; margin-top: 20px;}
+
 .link-up-down{background: #242830;padding-top: 15px;}
 .link-up-down a{color: #c0c0c0;  }
 .link-up-down a:hover{color: #3dc9b3; transition: 0.5s; }
@@ -339,7 +354,7 @@ ul.legals li:last-child::after { content: ""; }
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
-#servicesSlider { margin-top: 70px; }
+#servicesSlider { margin-top: 20px; }
 ul.slides li { margin-bottom: 20px;  margin-top: 30px;}
 /* ==========================================================================
 Waypoints
@@ -348,4 +363,4 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-.wp3 { background: url('../img/process.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
+.wp3 { background: url('../img/process5.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
