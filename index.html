@@ -10,13 +10,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Days+One&family=Do+Hyeon&family=Jockey+One&family=Kanit&display=swap"
     rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/queries.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <script src="https://use.fontawesome.com/6675b002a4.js"></script>
   <script src="https://use.fontawesome.com/f169ae12f0.js"></script>
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -57,14 +60,17 @@
         <div class="row">
           <div class="col-md-10 col-md-offset-2 text-left inner">
             <h1 class="animated fadeInDown" id="main-title">Hi,<br>I'm<br>Payam.</h1>
-            <p class="animated fadeInUp delay-05s">A Freelance UX Designer<br>&emsp;&emsp;&emsp;& Software
-              Engineer</p>
+            <p class="animated fadeInUp delay-05s">A Freelance UX Designer,
+              <br>&emsp;Software
+              Engineer, <br>& Photographer </p>
           </div>
           <div class="col-md-12 text-center">
             <a href="#intro" class="learn-more-btn">Who I am</a>
             <a href="#portfolio" class="learn-more-btn">My Work</a>
+            <a class="learn-more-btn" href=""
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pdowlatyari/meeting'});return false;">
+              Meet Me</a>
           </div>
-
         </div>
         <div class="row">
         </div>
@@ -76,7 +82,6 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2 wp1">
           <h1 class="arrow">Welcome To My Professional Portfolio</h1>
-
           <p>My name is <strong>Payam Dowlatyari</strong>, and I am a UX Designer, Web Developer, and
             Photographer based
             in
@@ -97,7 +102,6 @@
     <div class="container">
       <div class="row">
         <div class="col-md-1 sides">
-
         </div>
         <div class="col-md-10">
           <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
@@ -105,31 +109,24 @@
               href='https://www.linkedin.com/in/payamdowlatyari?trk=profile-badge'>Payam Dowlatyari</a></div>
         </div>
         <div class="col-md-1 sides">
-
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-md-12">
-
-          <a href="#features">
-            <i class="fa fa-arrow-circle-down" aria-hidden="true" style="font-size: 36px; padding: 20px;"></i>
-          </a>
-        </div>
-      </div> -->
     </div>
   </section>
-
+  <div class="bottom-section">
+    <a href="#features">
+      <i class="fa fa-arrow-circle-down text-center" aria-hidden="true"
+        style="font-size: 36px; background-color: #f3f5f8; width: 100%; border: none;"></i>
+    </a>
+  </div>
   <div class="ignite-cta text-center">
-
     <div class="container">
       <div class="row">
         <div class="link-up-down col-md-1">
-          <a href="#features">
+          <a href="#membership">
             <i class="fa fa-arrow-circle-down" aria-hidden="true" style="font-size: 36px;"></i>
           </a>
-
         </div>
-
         <div class="col-md-10">
           <h1>Tell me about your deram!</h1>
           </h1>
@@ -141,16 +138,14 @@
         </div>
       </div>
     </div>
-
   </div>
-
   <section class="features text-center section-padding" id="features">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1 class="arrow">Specialized Services</h1>
           <div class="features-wrapper">
-            <div class="col-md-4 wp2 feature-box">
+            <div class="col-md-4 wp2 feature-box service-box">
               <div class="icon">
                 <i class="fa fa-laptop shadow"></i>
               </div>
@@ -160,7 +155,7 @@
                 I design User Interfaces for you based upon UX principles and utilizing the latest technology.
               </p>
             </div>
-            <div class="col-md-4 wp2 delay-05s">
+            <div class="col-md-4 wp2 delay-05s service-box">
               <div class="icon">
                 <i class="fa fa-code shadow"></i>
               </div>
@@ -170,7 +165,7 @@
                 with the right tools and
                 experience. </p>
             </div>
-            <div class="col-md-4 wp2 delay-1s">
+            <div class="col-md-4 wp2 delay-1s service-box">
               <div class="icon">
                 <i class="fa fa-camera shadow"></i>
               </div>
@@ -181,26 +176,24 @@
                 ready to
                 shoot. </p>
             </div>
-            <div class="clearfix"></div>
+            <div class="clearfix">
+            </div>
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-md-12">
-
-          <a href="#responsive">
-            <i class="fa fa-arrow-circle-down" aria-hidden="true" style="font-size: 24px; padding: 20px;"></i>
-          </a>
-        </div>
-      </div> -->
     </div>
   </section>
-
+  <div class="bottom-section">
+    <a href="#responsive">
+      <i class="fa fa-arrow-circle-down text-center" aria-hidden="true"
+        style="font-size: 36px; background-color: #f3f5f8; width: 100%; border: none;"></i>
+    </a>
+  </div>
   <div class="ignite-cta text-center">
     <div class="container">
       <div class="row">
         <div class="link-up-down col-md-1">
-          <a href="#responsive">
+          <a href="#membership">
             <i class="fa fa-arrow-circle-down" aria-hidden="true" style="font-size: 36px;"></i>
           </a>
         </div>
@@ -221,7 +214,6 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-
           </div>
         </div>
       </div>
@@ -237,7 +229,6 @@
         <div class="row">
           <div class="col-md-5 col-md-offset-7">
             <h1 class="arrow">Software Development Process</h1>
-
             <div id="servicesSlider">
               <ul class="slides">
                 <li>
@@ -251,7 +242,6 @@
                     using web technologies, libraries, and frameworks like Bootstrap, jQuery, React, Angular, etc. are
                     preferred depending on the time, scope, and complexity of each project.
                   </p>
-
                 </li>
                 <li>
                   <h2>Backend, API, and Database Implementation</h2>
@@ -281,7 +271,6 @@
                     • Deployment & Maintenance <br><a
                       href="https://www.researchgate.net/publication/266631848_Ontology_to_Support_Web_Design_Activities_in_E-Commerce_Software_Development_Process"
                       target="_blank">Learn more <i class="fa fa-external-link" aria-hidden="true"></i></a>
-
                   </p>
                 </li>
               </ul>
@@ -291,7 +280,6 @@
       </div>
     </div>
   </section>
-
   <section class="swag text-center">
     <div class="container">
       <div class="row">
@@ -324,7 +312,7 @@
                     <img src="img/paperbrowser.png" alt="Portfolio Item">
                     <div class="overlay">
                       <a href="https://depstein.github.io/personalinformatics-metareview/" target="_blank"
-                        class="expand"><i class="fa fa-external-link"></i><br>View Project</a>
+                        class="expand"><i class="fa fa-external-link"></i><br></a>
                       <a class="close-overlay hidden">x</a>
                     </div>
                   </div>
@@ -338,7 +326,7 @@
                     <img src="img/virtualhosp.png" alt="Portfolio Item">
                     <div class="overlay">
                       <a href="https://virtual-hospitality.com/" target="_blank" class="expand"><i
-                          class="fa fa-external-link"></i><br>View Project</a>
+                          class="fa fa-external-link"></i><br></a>
                       <a class="close-overlay hidden">x</a>
                     </div>
                   </div>
@@ -352,8 +340,8 @@
                     <img src="img/m-studios.png" alt="Portfolio Item">
                     <div class="overlay">
                       <a href="http://m-studios.us/" target="_blank" class="expand"><i
-                          class="fa fa-external-link"></i><br>View
-                        Project</a>
+                          class="fa fa-external-link"></i><br>
+                      </a>
                       <a class="close-overlay hidden">x</a>
                     </div>
                   </div>
@@ -369,7 +357,7 @@
                     <img src="img/calplug.png" alt="Portfolio Item">
                     <div class="overlay">
                       <a href="https://cpmqtt1.calit2.uci.edu/" target="_blank" class="expand"><i
-                          class="fa fa-external-link"></i><br>View Project</a>
+                          class="fa fa-external-link"></i><br></a>
                       <a class="close-overlay hidden">x</a>
                     </div>
                   </div>
@@ -383,7 +371,7 @@
                     <img src="img/ColorGame.png" alt="Portfolio Item">
                     <div class="overlay">
                       <a href="https://rafrlza4gtrantnizn5zcq-on.drv.tw/game.payamd.com/" target="_blank"
-                        class="expand"><i class="fa fa-external-link"></i><br>View Project</a>
+                        class="expand"><i class="fa fa-external-link"></i><br></a>
                       <a class="close-overlay hidden">x</a>
                     </div>
                   </div>
@@ -397,7 +385,7 @@
                     <img src="img/TextEditor.png" alt="Portfolio Item">
                     <div class="overlay">
                       <a href="https://github.com/4youappuci/heroku" target="_blank" class="expand"><i
-                          class="fa fa-external-link"></i><br>View Project</a>
+                          class="fa fa-external-link"></i><br></a>
                       <a class="close-overlay hidden">x</a>
                     </div>
                   </div>
@@ -411,7 +399,12 @@
       </div>
     </div>
   </section>
-
+  <div class="bottom-section">
+    <a href="#membership">
+      <i class="fa fa-arrow-circle-down text-center" aria-hidden="true"
+        style="font-size: 36px; background-color: #f3f5f8; width: 100%; border: none;"></i>
+    </a>
+  </div>
   <div class="ignite-cta text-center">
     <div class="container">
       <div class="row">
@@ -422,7 +415,6 @@
         </div>
         <div class="col-md-10">
           <h1>Make It Simple, But Significant. <br><small>Don Draper</small></h1>
-
         </div>
         <div class="link-up-down col-md-1">
           <a href="#top">
@@ -437,7 +429,6 @@
       <h1 class="arrow">Memberships and Contact Information</h1>
       <div class="row">
         <div class="buttom-page col-md-12">
-
           <div id="servicesSlider">
             <ul class="slides">
               <li>
@@ -460,7 +451,6 @@
                     height="100" width="100" style="height:auto;max-width:150px" /></a>
               </li>
               <li>
-                <!-- <div class="col-md-12 buttom-page"> -->
                 <a href=" https://www.coursera.org/user/7ceba7ed17c067d40e6c07f88054b5e3" target="_blank"><img
                     src="img/coursera.png" alt="coursera" height="150" width="150"
                     style="height:auto;max-width:200px;" /></a>
@@ -475,14 +465,8 @@
                     style="height:auto;max-width:200px" /></a>
                 <a href="https://https://uci.academia.edu/PayamDowlatyari" target="_blank"><img src="img/academia.png"
                     alt="academia" height="180" width="180" style="height:auto;max-width:200px" /></a>
-
-
-                <!-- </div> -->
-
               </li>
-              <!-- <div class="col-md-12 buttom-page"> -->
               <li>
-
                 <a href="https://stackoverflow.com/users/8922641/payam-dowlatyari" target="_blank"><img
                     src="img/stackOF.png" alt="stackoverflow" height="200" width="200"
                     style="height:auto;max-width:200px" /></a>
@@ -492,62 +476,24 @@
                   href="https://orcid.org/0000-0001-9481-0394" target="orcid.widget" rel="me noopener noreferrer">
                   <img src="img/orcid.png" alt="orcid" height="250" width="250"
                     style="height:auto;max-width:300px" /></a>
-                <a href="https://access.nspe.org/eweb/MemberPage.aspx?Site=NSPE&NSPEToken=9fd86293-ebf3-4629-aa8d-0241a515b71b
-" target="_blank"><img src="img/NSPE-Member.png" alt="NSPE" height="200" width="200"
+                <a href="https://access.nspe.org/eweb/MemberPage.aspx?Site=NSPE&NSPEToken=9fd86293-ebf3-4629-aa8d-0241a515b71b"
+                  target="_blank"><img src="img/NSPE-Member.png" alt="NSPE" height="200" width="200"
                     style="height:auto;max-width:300px;" /></a>
-
               </li>
-
-
-
-
-              <!-- </div> -->
-
-
-
             </ul>
           </div>
-
         </div>
-
       </div>
     </div>
-
   </section>
-  <!-- <div class="ignite-cta text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-
-
-        </div>
-        <div class="col-md-4">
-
-
-        </div>
-        <div class="col-md-4">
-          <p>
-
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div> -->
-
   <div class="link-up-down text-center">
     <a href="#top">
       <i class="fa fa-arrow-circle-up" aria-hidden="true" style="font-size: 36px;"></i>
     </a>
   </div>
-
-
   <footer>
-
     <div class="container text-center">
-
       <div class="row">
-
         <div class="col-md-3">
           <p>
             <span class="footer-title">Get In Touch </span>
@@ -556,17 +502,14 @@
             Phone: <a href="tel:916-547-8918"> +1 (916) 547 8918</a>
             <br>
             E-mail: <a href="mailto:payamd@ieee.org">payamd@ieee.org</a>
-            <!-- <br>
-            <a href="mailto:pdowlaty@uci.edu">pdowlaty@uci.edu</a> -->
+            <br>&emsp;&emsp;&emsp;
+            <a href="mailto:pdowlaty@uci.edu">pdowlaty@uci.edu</a>
           </p>
-
-
         </div>
         <div class="col-md-6">
           <p>
             <span class="footer-title">Follow Me </span>
           </p>
-
           <ul class="social-buttons">
             <li><a href="https://www.facebook.com/payam.dowlatyari" class="social-btn"><i
                   class="fa fa-facebook"></i></a></li>
@@ -583,13 +526,9 @@
 
             <li><a href="https://www.quora.com/profile/Payam-Dowlatyari" class="social-btn"><i
                   class="fa fa-quora"></i></a></li>
-
-
           </ul>
         </div>
         <div class="col-md-3">
-          <!-- <p> -->
-          <!-- <a href="#top" class="up-btn"><i class="fa fa-arrow-up"></i></a> -->
           <p>
             <span class="footer-title">Quick Links </span>
           </p>
@@ -598,33 +537,17 @@
             <a href="#features">Services</a> |
             <a href="#responsive">Process</a> |
             <a href="#portfolio">Portfolio</a>
-
           </p>
-
           <p>
-
           <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
-
             <a href="https://www.termsfeed.com/live/90cd20e9-728f-4198-b93e-3fcde44ba831" target="_blank">Terms </a> |
-
             <a href="https://www.termsfeed.com/live/a271f9fe-af55-4dc7-88c3-4d9ebd2213ab" target="_blank">Privacy</a> |
             <a href="https://www.termsfeed.com/live/b632119c-dedc-4530-af8d-e6cc6badc68a" target="_blank">Disclaimer</a>
             <br>
-
-
-
-
         </div>
       </div>
       <div class="row">
-        <!-- <div class="col-md-3">
-
-
-        </div> -->
         <div class="col-md-12">
-
-          <!-- </p> -->
-
           <a href="https://validator.w3.org/check?uri=referer" target="_blank"><img
               src="http://www.w3.org/Icons/valid-html20-blue" alt="Valid HTML 1.0!" height="26" width="75" /></a>
 
@@ -637,15 +560,7 @@
         W3C WAI Web Content Accessibility Guidelines 2.0">
           </a>
           <br>
-
           <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
-
-            <!-- <a href="https://www.termsfeed.com/live/90cd20e9-728f-4198-b93e-3fcde44ba831" target="_blank">Terms </a> |
-
-            <a href="https://www.termsfeed.com/live/a271f9fe-af55-4dc7-88c3-4d9ebd2213ab" target="_blank">Privacy</a> |
-            <a href="https://www.termsfeed.com/live/b632119c-dedc-4530-af8d-e6cc6badc68a" target="_blank">Disclaimer</a>
-            <br> -->
-
             Copyright &copy; 2020 |
             Designed by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://payamd.com/"
               target="_blank">payamd.com</a> | Licensed under <a rel="license"
@@ -656,16 +571,8 @@
                 src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img
                 style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
                 src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /></a>
-
-
-
-
           </p>
         </div>
-        <!-- <div class="col-md-3 text-center">
-
-
-        </div> -->
       </div>
     </div>
   </footer>
