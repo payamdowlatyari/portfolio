@@ -315,9 +315,9 @@ Memberships
 ========================================================================== */
 .membership { background: #f3f5f8;  min-height: 100vh;}
 
-.mem-icon{ margin: auto; padding: 20px; float: center;}
+.mem-icon{ margin: auto; padding: 20px;}
 .half-page-left {width: 30%; float: left; background: #f3f5f8;}
-.half-page-middle {width: 40%; float: center; background: #242830;}
+.half-page-middle {width: 40%; background: #242830;}
 .half-page-right { width: 30%; height: 100%; background: #f3f5f8; float: right;}
 .buttom-page a{ padding: 30px; margin-bottom: 50px; margin-top: 50px;}
 .buttom-page img{ margin-bottom: 20px; margin-top: 20px;}
